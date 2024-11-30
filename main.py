@@ -3,9 +3,9 @@ import face_recognition
 import telegram
 import numpy as np
 import dlib
-TOKEN = '8156782203:AAF8_CW6hdsjCxar-dheFrqtdltHWwJuc6w'
+TOKEN = 'enter you token here'
 bot = telegram.Bot(token=TOKEN)
-chat_id = 6561016578
+chat_id =  your_chat_id
 
 your_face = face_recognition.load_image_file('C:/Users/91956/Downloads/aksha pto.jpg')
 your_face_encoding = face_recognition.face_encodings(your_face)[0]
