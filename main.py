@@ -1,8 +1,15 @@
 import cv2
 import numpy as np
+<<<<<<< HEAD
 import face_recognition
 import random
 from collections import deque
+=======
+import dlib
+TOKEN = 'enter you token here'
+bot = telegram.Bot(token=TOKEN)
+chat_id =  your_chat_id
+>>>>>>> a5a1444585d4f328ee1567e09a42bbff12c01fd0
 
 def preprocess_frame(frame):
     # Apply Gaussian blur for noise reduction
